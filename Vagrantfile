@@ -1,6 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-for crating multi vms
+
 Vagrant.configure("2") do |config|
   config.vm.define "server" do |server|
   server.vm.box = "centos/7"
